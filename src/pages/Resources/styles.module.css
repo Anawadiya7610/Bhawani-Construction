@@ -1,0 +1,55 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec1{
+    width: 100%;
+    height: 100%;
+}
+
+.image{
+    background: url('resources.jpg');
+    width: 80%;
+    height:30vh;
+    background-size: 100% 100%;
+    background-repeat:no-repeat ;
+    margin: auto;
+    border: 1px solid #ecf0f1;
+}
+.heading1{
+    margin-top: 40px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding-left: 10px;
+  }
+
+  .tab{
+    width: 80%;
+    margin:40px auto;
+    text-align: left;
+    
+  }
+
+  .tabHead{
+    background-color: #7eb6ff;
+    height: 2.5em;
+}
+
+    .row-white{
+        height: 2.5em;
+        background-color:#FCF8E3;
+    
+    }
+    .row-blue{
+        height: 2.5em;
+        background-color: #D9EDF7;
+    }
+    
+    .sno1{
+        width: 13.3%;
+    }

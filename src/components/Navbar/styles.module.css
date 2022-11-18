@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height:120px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 98%;
+    border-top:none;
+    margin: auto;
+}
+
+.header-main{
+    display: flex;
+    width: 100%;
+    height: 120px;
+}
+
+.header .img-div{
+    margin-left: 2em;
+    width: 9%;
+    height: 100px;
+
+}
+.header img{
+    width: 100%;
+    height: 100%;
+}
+
+.routes{
+   
+    height: 100px;
+}
+.list-div{
+    width: 60%;
+    height: 120px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    padding-left: 9%;
+}
+
+.list-div .navul{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+
+
+    @media (max-width: 720px) {
+        display: none;
+    }
+    
+}
+
+.Navli{
+    width: 115px;
+    display: inherit;
+    margin: 0 5px;
+}
+
+.Navli:hover{
+    background-color: #f5f6fa;
+    height:40%;
+    align-items: center;
+    
+}
+
+.list-div .navul a{ 
+    text-decoration: none;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 400;
+    color:#999;
+}
+
+
+
+ .active{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    text-align: left;
+    width: 100%; 
+    top: 8%;
+   
+ }
+
+ .about .active {
+    display: none;
+    padding-left: 13px;
+    height: 18%;
+    width: 11%;
+}
+
+ .about:hover .active {
+    display: block;
+    background-color: #f5f6fa;
+    margin-top: 1.3em;
+ }
+
+
+ .project .proactive{
+    display: none;
+    height: 14%;
+    width: 10%;
+ }
+
+ .project:hover .proactive{
+    display: block;
+    background-color: #f5f6fa;
+    margin-top: 1.3em;
+ }
+
+ .people .peoactive{
+    display: none;
+    height: 30%;
+    width: 16%;
+   
+ }
+
+ .people:hover .peoactive{
+    display: block;
+    margin-top: 1.3em;
+    background-color: #f5f6fa;
+ }
+
+.bar{
+    display: none;  
+}
+.barx{
+    position: absolute;
+    top: 80px;
+    left: 600px;
+}
+ 
+  @media(max-width:1200px){
+    .people .peoactive{
+       
+        height: 40%;
+        width: 20%;
+        right: 2%;
+     }
+     .project .proactive{
+        height: 20%;
+        width: 16%;
+     }
+     .about .active {
+        height: 18%;
+        width: 14%;
+    }
+ }
+
+ @media(max-width:900px){
+    .Navli{
+        width: 100px;
+        margin: 0 1px;
+    }
+    .img-div{
+        margin-left: 0;
+    }
+    .people .peoactive{
+        
+        height: 30%;
+        width: 33%;
+     }
+     @media(max-width:800px){
+    .bar{
+            display: block;
+    }
+
+    .navMobile {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        text-align: right;
+        right: 15%;
+        top: 46px;
+        display: none;
+    }
+
+    .navMobile.activeNav {
+        display: flex;
+    }
+
+    .list-div{
+        height: 100vh;
+        width: 34%;
+        margin-left: 400px;
+        margin-right: 0;
+        padding: 0;
+        background-color: white;
+    }
+
+    .list-div  .navul{
+        padding-top: 60%;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        display: none;
+    }
+
+    .list-div .navul.activeNav {
+        display: flex;
+    }
+
+    .about .active {
+        
+       
+        height: 2%;
+        width: 11%;
+    }
+    .Navli:hover{
+        background-color: #f5f6fa;
+        height:5%;
+        align-items: center;
+    }
+     }
+
+ } 

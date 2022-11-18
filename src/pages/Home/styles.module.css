@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec-1{
+    width: 98%;
+    height: 100vh;
+    background: url("../img/real6.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+
+.sec-2{
+    margin: 80px 40px;
+    height: fit-content;
+}
+
+.main{
+    display: flex;
+    margin: 20px 20px;
+}
+
+.main-icon{
+display: flex;
+height: 40%;
+margin: 20px 30px;
+background: url('bg.png');
+background-repeat:no-repeat ;
+background-size: cover;
+}
+
+.icon{
+    width: 70px;
+    height: 100;
+    background-color: #3f4096;
+}
+
+
+
+
+
+.headpara{
+   width: 100%;
+   margin-top: 15px;
+  padding: 0 15px 15px 15px;
+}
+.parag{
+    font-size: 0.9rem;
+    text-align: justify;
+}
+p {
+    margin: 0 20px;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+.comp-name{
+    color:#000;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comp-name h1{
+    font-weight: 700;
+}
+
+.img-div1{
+    width: 95vw;
+    height: 100%;
+}
+.img-div1 img{
+    width: 30%;
+    size: cover;
+    height: 40vh;
+    border-radius: 8px;
+    padding: 0 5px;
+}
+.mid-img{
+    padding: 0 5px;
+    margin: 0 8px;
+}
+
+.sec-4{
+    margin: 80px 40px;
+}
+.sec4-div1{
+    width: 88%;
+    text-align: center;
+    margin: auto;
+    padding: 40px 40px;
+    border-left: 6px solid #3f4096;
+    background: url('bg.png')no-repeat center center/cover;
+    /* background-size: 100% 100%; */
+}
+
+.sec4-div1 p{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+}
+
+.sec-6{
+    margin: 40px 40px;
+}
+
+.head{
+    margin-left:5%;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+@media(max-width:900px){
+     
+    .sec-2{
+        margin: 20px 10px;
+    }
+    .main{
+        margin: 5px 0;
+    }
+   .main-icon{
+        margin: 15px 8px;
+   }
+   .headpara{
+    margin-top: 10px;
+    padding: 0 10px 10px 10px;
+   }
+ 
+   .sec4-div1{
+    padding: 20px 20px;
+   }
+
+
+}
+@media (max-width:700px) {
+    .img-div1 img{
+        width: 30%;
+        size: cover;
+        height: 30vh;
+       
+    }
+
+    @media (max-width:550px) { 
+        .main{
+            flex-direction: column;
+             
+        }
+         .main-icon{
+            padding: 5px 10px;
+         }
+         .img-div1{
+            display: flex;
+            flex-direction: column;
+         }
+         .img-div1 img{
+            width: 90%;
+            size: cover;
+            height: 40vh;
+           margin: auto;
+           margin-left: 0;
+           margin-bottom: 8px;
+        }
+       
+    }
+}

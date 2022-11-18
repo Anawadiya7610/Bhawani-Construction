@@ -1,0 +1,16 @@
+.main-div{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.client-sec1{
+    width: 100%;
+}
+.client-sec1 img{
+    width: 100%;
+}
+
+.client-sec2 img{
+    width: 18%;
+    height: fit-content;
+}

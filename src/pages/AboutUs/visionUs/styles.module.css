@@ -1,0 +1,24 @@
+
+.clientsec-1{
+    width: 90%;
+    margin: auto;
+
+}
+.clientsec-1 img{
+    width: 100%;
+    height: fit-content;
+}
+h4{
+    color: rgb(75, 75, 138);
+}
+
+p{
+    font-size: 18px;
+}
+span{
+    font-weight: 800;
+}
+.para-div{
+    width: 90%;
+    margin: auto;
+}

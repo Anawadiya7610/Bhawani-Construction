@@ -1,0 +1,151 @@
+.secFooter{
+    background-color: rgb(211, 211, 236);
+    width: 98%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 8px auto 0 auto;
+    /* border: 2px solid rgb(197, 193, 193); */
+    border-bottom: none;
+}
+.footDiv{
+    width: 35%;
+    height:100%;
+}
+.footPara{
+    font-size: 16px;
+}
+.main1{
+    display: flex;
+    padding: 40px 0;
+}
+.main2{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(199, 199, 238);
+}
+
+.main2 p{
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 700;
+
+}
+.img{
+    width: 100px;
+    height: auto;
+    display: flex;
+    margin: auto;
+    align-items:center;
+    justify-content: center;
+}
+.footDiv img{
+     width: 80px;
+     height: 100%;
+     margin: auto;
+    }
+
+.footDiv h2,h6,p{
+    text-align: left;
+    align-items: flex-start;
+    margin: 0;
+}
+.footDiv h5{
+    font-weight: 600;
+}
+.footDiv p{
+    margin: 0;
+}
+ ul{
+    display: flex;
+    list-style: none;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+    
+}
+ ul li{
+    font-size:22px ;
+    margin:0 15px;
+  
+}
+
+
+.faceli{
+
+    margin-left: 0;
+}
+ .fa-instagram{
+    color: red;
+ }
+
+
+
+
+
+ @media (max-width:720px) {
+  .footPara{
+    font-size: 14px;
+  }
+    
+  h6{
+    font-size: 0.9rem;
+  }
+  h2{
+    font-size: 1.2rem;
+  }
+  .main2 p{
+    font-weight: 450;
+    font-size: 16px;
+  }
+  ul li{
+    font-size:16px ;
+    margin:0 auto;
+  
+}
+@media (max-width:550px) {
+    .main1 {
+        display: flex;
+        padding: 10px 10px;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+    }
+    .footDiv{
+        width: 100%;
+        margin: auto;
+        margin-bottom: 15px;
+        /* text-align: center; */
+    }
+    .footDiv h2,h6,p{
+        text-align: center;
+        align-items: justify;
+
+        margin: auto;
+    }
+    .footDiv .img{
+        text-align: center;
+        align-items: justify;
+        margin: auto;
+    }
+    .footPara{
+        text-align: center;
+        align-items: center;
+        margin: auto;
+    }
+    ul{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    ul li{
+        font-size:16px ;
+        margin:0 5px;
+       
+      
+    }
+}
+ }
