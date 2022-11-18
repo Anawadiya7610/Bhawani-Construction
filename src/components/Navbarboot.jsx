@@ -16,7 +16,7 @@ function Navbarboot() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto" className="marauto">
+          <Nav className="me-auto marauto">
             <Nav.Link className="am"  as={Link} to={"/"}> 
               Home
             </Nav.Link>
