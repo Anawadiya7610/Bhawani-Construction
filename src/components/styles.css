@@ -10,7 +10,8 @@
     margin: auto;
 }
 .am{
-    margin:0 8px;
+    margin:auto 8px;
+    cursor: pointer !important;
 }
 .drop{
     font-weight: 500;

@@ -13,7 +13,8 @@
     height:100%;
 }
 .footPara{
-    font-size: 16px;
+    font-size: 15px;
+    font-weight: 500;
 }
 .main1{
     display: flex;
@@ -115,6 +116,7 @@
         width: 100%;
         margin: auto;
         margin-bottom: 15px;
+        margin-top: 20px;
         /* text-align: center; */
     }
     .footDiv h2,h6,p{

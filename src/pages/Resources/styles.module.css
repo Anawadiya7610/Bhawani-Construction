@@ -53,3 +53,12 @@ table, th, td {
     .sno1{
         width: 13.3%;
     }
+
+    @media(max-width:768px){
+        .image{
+            width: 90%;
+        }
+        .tab{
+            width: 90%;
+        }
+    }

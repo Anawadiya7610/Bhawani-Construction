@@ -1,127 +1,141 @@
-body{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.sec1{
-    width: 100%;
-    height: 100%;
+.sec1 {
+  width: 100%;
+  height: 100%;
 }
 
-.image{
-    background: url('cmptproject.jpg');
-    width: 98%;
-    height:60vh;
-    background-size: 100% 100%;
-    background-repeat:no-repeat ;
-    margin: auto;
-    position: relative;
+.image {
+  background: url("cmptproject.jpg");
+  width: 98%;
+  height: 60vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: auto;
+  position: relative;
 }
 
-
-
-.image span h1{
-    width:30%;
-    height:1.5em ; 
-    background-color: rgb(36, 33, 33);
-    margin:auto;
-    color: white;
-    position: absolute;
-    left: 33%;
-    top: 30%;
+.image span h1 {
+  width: 30%;
+  height: 1.5em;
+  background-color: rgb(36, 33, 33);
+  margin: auto;
+  color: white;
+  position: absolute;
+  left: 33%;
+  top: 30%;
 }
 
-
-.sec2 h1{
-    margin-top: 20px;
+.sec2 h1 {
+  margin-top: 20px;
 }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-  }
-
-.tablelist{
-    width: 100%;
-    display: flex;
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
 
-.tablelist .unorder{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    margin: 40px auto;
+.tablelist {
+  width: 100%;
+  min-width: 600px;
+  display: flex;
 }
 
-.listboder{
-    border: 1px solid black;
+.tablelist .unorder {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 250px;
+  width: 30%;
+  margin: 40px auto;
 }
 
-.listboder a{
-    text-decoration: none;
-    font-size: 20px;
-    text-align: left;
-}
-  .tab{
-    width: 60%;
-    margin:40px auto;
-    
-  }
-
-  .tab-head{
-    height: 2.5em;
-    background-color: #7eb6ff;
-  }
-
-  .tb-data{
-    height: 2.5em;
-  }
-
-.sno{
-    width: 5%;
+.listboder {
+  border: 1px solid black;
+  min-width: 250px;
 }
 
-.project{
-    width: 15%;
+.listboder a {
+  text-decoration: none;
+  font-size: 20px;
+  text-align: left;
+}
+.tab {
+  width: 60%;
+  margin: 40px auto;
 }
 
-.area{
-    width: 15%;
+.tab-head {
+  height: 2.5em;
+  background-color: #7eb6ff;
 }
 
-.duration{
-    width: 18%;
+.tb-data {
+  height: 2.5em;
 }
 
-.btnImg{
-    width: 10%;
-}
-.btn-Img{
-    border-radius: 5px;
-    background-color: #5cb85c;
-    border-color: #5cb85c;
+.sno {
+  width: 5%;
 }
 
-.row-white{
-    background-color:#FCF8E3;
-
-}
-.row-blue{
-    background-color: #D9EDF7;
+.project {
+  width: 15%;
 }
 
+.area {
+  width: 15%;
+}
 
-@media (max-width:1100px) {
-    
-    .image span h1{
-        width:40%;
-        height: fit-content;
-        
-        /* left: 33%;
+.duration {
+  width: 18%;
+}
+
+.btnImg {
+  width: 10%;
+}
+.btn-Img {
+  border-radius: 5px;
+  background-color: #5cb85c;
+  border-color: #5cb85c;
+}
+
+.row-white {
+  background-color: #fcf8e3;
+}
+.row-blue {
+  background-color: #d9edf7;
+}
+
+@media (max-width: 1100px) {
+  .image span h1 {
+    width: 40%;
+    height: fit-content;
+
+    /* left: 33%;
         top: 30%; */
-    }
-    .image span h1{
-        width:50%;
+  }
+  .image span h1 {
+    width: 50%;
+  }
 }
+
+@media (max-width: 800px) {
+  .tablelist {
+    flex-direction: column;
+  }
+  .tablelist .unorder {
+   
+    width: 97%;
+    
+  }
+  
+  .tab {
+    width: 97%;
+  }
 }

@@ -107,3 +107,7 @@ table, th, td {
         width:50%;
 }
 }
+@media(max-width:768px){
+    
+.tab{width: 97%;}
+}

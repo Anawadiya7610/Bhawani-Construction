@@ -7,7 +7,7 @@ export default function Vision() {
        <section className={style['clientsec-1']}>
          <img src={visionImg} alt="Image Not Found" />
        </section>
-       <h4>To become the most successful and respected construction company in india.</h4>
+       <h4 className={style['vision_heading']}>To become the most successful and respected construction company in india.</h4>
       
        <div  className={style['para-div']}>
 

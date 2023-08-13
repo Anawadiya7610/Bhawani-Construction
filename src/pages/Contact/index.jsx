@@ -8,7 +8,7 @@ export default function index() {
       </section>
       <form className={style.cols}>
         <input
-          type="text"
+          type="text"z
           placeholder="Name"
           name="name"
           id="name"
@@ -53,17 +53,17 @@ export default function index() {
           <p className={style.parag}>Ajmer Road Jaipur 302021</p>
         </div>
 
-        <p className={style.map}>
+        <div className={style.map}>
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.3803275491036!2d75.72534251436534!3d26.891422267481577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db4b84db2cac1%3A0xd9b258eea9665e8b!2sHeerapura%2C%20Heerawala%2C%20Jaipur%2C%20Rajasthan%20302034!5e0!3m2!1sen!2sin!4v1668685154062!5m2!1sen!2sin"
-            width="400"
+            width="100%"
             height="250"
             style={{ border: 0 }}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
-        </p>
+        </div>
       </section>
     </div>
   );
